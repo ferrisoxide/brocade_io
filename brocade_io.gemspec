@@ -1,10 +1,10 @@
-require_relative "lib/datakick/version"
+require_relative "lib/brocade_io/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "datakick"
-  spec.version       = Datakick::VERSION
-  spec.summary       = "Ruby client for Datakick - the open product database"
-  spec.homepage      = "https://github.com/ankane/datakick"
+  spec.name          = "brocade_io"
+  spec.version       = BrocadeIo::VERSION
+  spec.summary       = "Ruby client for Brocade.io"
+  spec.homepage      = "https://github.com/ferrisoxide/brocade_io"
   spec.license       = "MIT"
 
   spec.author        = "Andrew Kane"

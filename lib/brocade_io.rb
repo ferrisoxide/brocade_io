@@ -1,13 +1,13 @@
 require "json"
 require "faraday"
 require "hashie"
-require "datakick/version"
-require "datakick/item"
+require "brocade_io/version"
+require "brocade_io/item"
 
-class Datakick
+class BrocadeIo
 
   def initialize(options = {})
-    @host = options[:host] || "https://www.datakick.org"
+    @host = options[:host] || "https://www.brocade.io"
     @version = options[:version] || 1
   end
 
